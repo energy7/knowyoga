@@ -283,9 +283,10 @@ pre {
   font-size: 2rem; }
 
 .breathe {
-  background-image: url(/img/part1.gif);
+  background-image: url("../img/part1.gif");
   background-position: 0 0;
-  background-size: 220px auto;
+  background-size: auto 220px;
+  background-repeat: no-repeat;
   width: 160px;
   height: 220px;
   margin: 0 auto; }

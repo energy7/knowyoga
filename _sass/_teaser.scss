@@ -1,5 +1,3 @@
----
----
 
 .tease {
   text-align: center;
@@ -8,7 +6,7 @@
 }
 
 .breathe {
-  background-image: url('{{ site.baseurl }}/img/part1.gif');
+  background-image: url('../img/part1.gif');
   background-position: 0 0;
   background-size: auto 220px;
   background-repeat: no-repeat;
