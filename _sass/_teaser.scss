@@ -1,20 +1,37 @@
-
 .tease {
   text-align: center;
   margin: 20% $spacing-unit*3 0;
   font-size: 2rem;
 }
 
+.verysmol {
+  font-size: .6rem;
+  color: #AAA;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+@keyframes breathe {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6400px 0;
+  } 
+}
+
+// 8192 is maximum illustrator export width 
+
+
 .breathe {
-  background-image: url('../img/part1.gif');
+  background-image: url('../img/breathe.png');
   background-position: 0 0;
   background-size: auto 220px;
   background-repeat: no-repeat;
   width: 160px;
   height: 220px;
   margin: 0 auto;
+  animation: breathe 2s steps(40) infinite;
 }
-
-
-
 
