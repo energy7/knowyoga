@@ -1,0 +1,23 @@
+.footer {
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit*2 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+  .footer__text {
+    font-size: .75rem;
+    padding: 0 $spacing-unit*2;
+    
+    a {
+      color: #222;
+    }
+    
+  }
+  
+    .footer__tagline {
+      display: inline-block;
+      margin-right: $spacing-unit*2;
+    }
+    

@@ -1,0 +1,25 @@
+#mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	width: 100%;
+	text-align: left;
+	position: absolute;
+	bottom: 96px;
+}
+
+#mc_embed_signup form label {
+  font-weight: normal;
+  font-size: .8rem;
+  color: #444;
+}
+
+#mc_embed_signup form input.email {
+  padding: $spacing-unit*3;  
+}
+
+#mc_embed_signup form input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: $spacing-unit*3;  
+  line-height: 1px;
+}
