@@ -279,8 +279,9 @@ pre {
 
 .tease {
   text-align: center;
-  margin: 20% 24px 0;
-  font-size: 2rem; }
+  margin: 32px 24px 0;
+  font-size: 2rem;
+  line-height: 1.2; }
 
 .verysmol {
   font-size: .6rem;
@@ -310,7 +311,7 @@ pre {
   width: 100%;
   text-align: left;
   position: absolute;
-  bottom: 96px; }
+  bottom: 72px; }
 
 #mc_embed_signup #mc_embed_signup_scroll {
   padding: 0 24px; }
@@ -330,6 +331,12 @@ pre {
   line-height: 1px;
   border: 1px solid black; }
 
+@media (min-width: 768px) {
+  .tease {
+    margin-top: 20%; }
+
+  #mc_embed_signup {
+    bottom: 96px; } }
 /**
  * Syntax highlighting styles
  */

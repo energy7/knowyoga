@@ -1,7 +1,8 @@
 .tease {
   text-align: center;
-  margin: 20% $spacing-unit*3 0;
+  margin: $spacing-unit*4 $spacing-unit*3 0;
   font-size: 2rem;
+  line-height: 1.2;
 }
 
 .verysmol {
@@ -35,3 +36,15 @@
   animation: breathe 2s steps(40) infinite;
 }
 
+
+
+// remember to add @include to media-queries.scss
+
+@mixin tease--md() {
+  .tease {
+    margin-top: 20%;
+  }
+  #mc_embed_signup {
+    bottom: 96px;
+  }
+}
