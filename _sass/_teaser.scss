@@ -7,8 +7,12 @@
 
 .breathe {
   margin: 0 auto; 
-  width: 300px; 
+  width: 320px; 
   height: 300px;
+  overflow: hidden;
+  video {
+    margin-top: -16px;
+  }
 }
 
 
@@ -21,7 +25,6 @@
     font-size: 2rem;
   }
   .breathe {
-    width: 320px; 
     height: 320px;
   }
   #mc_embed_signup {
