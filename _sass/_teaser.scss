@@ -1,48 +1,28 @@
 .tease {
   text-align: center;
-  margin: $spacing-unit*4 $spacing-unit*3 0;
-  font-size: 2rem;
+  margin: $spacing-unit*3 $spacing-unit*3 0;
+  font-size: 1.8rem;
   line-height: 1.2;
 }
 
-.verysmol {
-  font-size: .6rem;
-  color: #BBB;
-  text-align: center;
-  display: block;
-  margin-top: 20px;
-}
-
-@keyframes breathe {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -6400px 0;
-  } 
-}
-
-// 8192 is maximum illustrator export width 
-
-
 .breathe {
-  background-image: url('../img/breathe.png');
-  background-position: 0 0;
-  background-size: auto 220px;
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 220px;
-  margin: 0 auto;
-  animation: breathe 2s steps(40) infinite;
+  margin: 0 auto; 
+  width: 300px; 
+  height: 300px;
 }
 
 
 
 // remember to add @include to media-queries.scss
 
-@mixin tease--md() {
+@mixin teaser--md() {
   .tease {
     margin-top: 20%;
+    font-size: 2rem;
+  }
+  .breathe {
+    width: 320px; 
+    height: 320px;
   }
   #mc_embed_signup {
     bottom: 96px;
